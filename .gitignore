@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+sync_config.jsonc
+*.pem
+*.key
+*.crt
+
+# Runtime data
+.session/
+session/
+logs/
+archives/
+tmp/
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+*.log
+npm-debug.log*
+*.backup
+*.bak
+*.bak2
+*.bak-*
+
+# Editors and OS
+.DS_Store
+.idea/
+.vscode/
+coverage/

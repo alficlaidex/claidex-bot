@@ -1,0 +1,46 @@
+{
+  "name": "claide-bot-by-alfi",
+  "version": "0.1.0",
+  "description": "Claide Bot by Alfi — WhatsApp bot custom berbasis zapo-js.",
+  "type": "module",
+  "main": "app.js",
+  "private": true,
+  "author": "Alfi",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js",
+    "check": "node scripts/check.js",
+    "test": "npm run check && node scripts/verify-menu.mjs",
+    "test:syntax": "node scripts/check.js",
+    "test:menu": "node scripts/verify-menu.mjs"
+  },
+  "dependencies": {
+    "@zapo-js/media-utils": "^1.0.0",
+    "@zapo-js/store-sqlite": "^1.3.0",
+    "axios": "^1.20.0",
+    "better-sqlite3": "latest",
+    "chokidar": "^5.0.0",
+    "dotenv": "^18.0.3",
+    "file-type": "^22.1.1",
+    "form-data": "^4.0.6",
+    "https-proxy-agent": "^9.1.0",
+    "node-webpmux": "^3.2.1",
+    "pino": "^9.14.0",
+    "pino-pretty": "^13.0.0",
+    "puppeteer": "^25.12.0",
+    "qrcode": "^1.5.4",
+    "sharp": "^0.35.4",
+    "socks-proxy-agent": "^10.1.0",
+    "syntax-error": "^1.4.0",
+    "ws": "^8.21.3",
+    "yt-search": "^2.13.1",
+    "zapo-js": "^1.9.0"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "overrides": {
+    "minimatch": "^3.1.5"
+  }
+}

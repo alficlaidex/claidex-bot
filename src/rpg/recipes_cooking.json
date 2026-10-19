@@ -1,0 +1,22 @@
+{
+  "recipes": [
+    { "id": "grilled_tilapia", "name": "Ikan Nila Bakar", "desc": "nila dibakar di atas bara — gurih sederhana", "tier": "common", "value": 12,
+      "ingredients": [{ "id": "tilapia", "amount": 1 }],
+      "restore": { "energy": 25, "hp": 10 } },
+    { "id": "rabbit_skewer", "name": "Sate Kelinci", "desc": "daging kelinci ditusuk dan dibakar, favorit tetua desa", "tier": "common", "value": 15,
+      "ingredients": [{ "id": "rabbit_meat", "amount": 1 }],
+      "restore": { "energy": 30, "hp": 15 } },
+    { "id": "mushroom_soup", "name": "Sup Jamur Liar", "desc": "kuah hangat dari jamur segar dan daun herbal", "tier": "uncommon", "value": 30,
+      "ingredients": [{ "id": "wild_mushroom", "amount": 2 }, { "id": "herb_leaf", "amount": 1 }],
+      "restore": { "energy": 20, "hp": 30 } },
+    { "id": "berry_jam", "name": "Selai Beri", "desc": "manis-asam, olesan roti para petualang", "tier": "uncommon", "value": 28,
+      "ingredients": [{ "id": "berry", "amount": 3 }],
+      "restore": { "energy": 35, "hp": 10 } },
+    { "id": "honey_tea", "name": "Teh Madu Herbal", "desc": "seduhan madu dan herbal, menghangatkan hingga ke tulang", "tier": "rare", "value": 60,
+      "ingredients": [{ "id": "wild_honey", "amount": 1 }, { "id": "herb_leaf", "amount": 1 }],
+      "restore": { "energy": 40, "hp": 25 } },
+    { "id": "feast_platter", "name": "Hidangan Rimba", "desc": "perjamuan lengkap hasil buruan dan petikan — hidangan para juara", "tier": "epic", "value": 150,
+      "ingredients": [{ "id": "rabbit_meat", "amount": 1 }, { "id": "tilapia", "amount": 1 }, { "id": "berry", "amount": 2 }],
+      "restore": { "energy": 60, "hp": 40 } }
+  ]
+}

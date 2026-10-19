@@ -1,0 +1,36 @@
+{
+  "locations": [
+    {
+      "id": "desa",
+      "name": "Desa Tepi Rimba",
+      "desc": "Kampung kecil yang jadi rumah barumu. Aman, tenang, dan ada warung Pak Karman.",
+      "requirements": [],
+      "activities": ["hunt", "forage", "fish", "rest", "shop", "craft"],
+      "drop_modifier": 1.0
+    },
+    {
+      "id": "rimba",
+      "name": "Rimba Dalam",
+      "desc": "Hutan lebat yang menyembunyikan hewan langka dan tumbuhan eksotis. Gelap dan lembap.",
+      "requirements": ["torch"],
+      "activities": ["hunt", "forage"],
+      "drop_modifier": 1.5
+    },
+    {
+      "id": "sungai",
+      "name": "Sungai Jernih",
+      "desc": "Aliran air yang memotong lembah. Ikan-ikan besar berenang di kedalaman.",
+      "requirements": ["fish_hook"],
+      "activities": ["fish"],
+      "drop_modifier": 1.8
+    },
+    {
+      "id": "gunung",
+      "name": "Punggung Gunung",
+      "desc": "Dataran tinggi yang dingin dan berangin. Pemandangan luas, tapi licin dan berbahaya.",
+      "requirements": ["rope", "compass"],
+      "activities": ["forage", "hunt"],
+      "drop_modifier": 2.0
+    }
+  ]
+}
